@@ -1,0 +1,100 @@
+
+.map{
+    width:"300px";
+    transform: translate(100px,50px);
+}
+.order-details{
+    transform: translate(0px,85px);
+    background-color: #F5F5F5;
+    padding:20px;
+    width:250px;
+    border-radius: 5px;
+}
+.order-details h4{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.delivery-time{
+    margin-top: -15px;
+    line-height: 0;
+}
+.raider-details{
+    display:flex;
+    background: white;
+    padding:5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+.raider{
+    margin-left: 10px;
+}
+.raider h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.raider p{
+    font-size: 16px;
+    line-height: 0.5;
+}
+.bike-img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.contact-btn{
+    padding:5px 76px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.congrats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.congrats img{
+    width: 500px;
+    height: 500px;
+}
+.congrats h1{
+    color:red;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 45px;
+}
+
+@media all and (max-width:500px){
+    .map{
+        width:"50px";
+        transform: translate(0px,20px);
+    }
+    .map img{
+        width:400px;
+    }
+    .order-details{
+        transform: translate(70px,65px);
+        background-color: #F5F5F5;
+        padding:20px;
+        width:250px;
+        border-radius: 5px;
+    }
+    .congrats{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .congrats img{
+        width: 100px;
+        height: 100px;
+    }
+    .congrats h1{
+        color:red;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 45px;
+    }
+}

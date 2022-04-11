@@ -1,0 +1,33 @@
+
+.about-details{
+    text-align: left;
+}
+.about-details h4{
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.about-details p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.about-carts{
+    display:flex;
+    margin-top:40px;
+}
+
+@media all and (max-width:500px){
+    .about-details h4{
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    .about-details p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .about-carts{
+        display:flex;
+        margin-top:40px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

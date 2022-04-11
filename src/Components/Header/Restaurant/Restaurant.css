@@ -1,0 +1,51 @@
+.restaurant{
+    margin-top:50px;
+    text-align: center;
+}
+.link-here{
+    display: flex;
+    justify-content: center;
+}
+.link-here a{
+         
+          text-decoration: none;
+          font-size: 23px;
+          font-weight: 600;
+          
+}
+.foods{
+    display:flex;
+    width:100%;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.checkout-food-btn{
+    margin: auto;
+    padding:5px 20px;
+    outline:none;
+    color: crimson;
+    background-color: #F5F5F5;
+    border-radius:5px;
+    margin:70px 0;
+
+}
+.activeClass{
+    width:80px;
+    background-color:red;
+    color:red;
+    height: 120px;
+    text-align: center;
+    line-height: 3rem;
+    margin-top: -3px;
+    margin-left: 15px;
+}
+@media all and (max-width:500px){
+    .foods{
+        display:flex;
+        width:100;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+    }
+}

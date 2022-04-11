@@ -1,0 +1,60 @@
+
+.login-banner{
+    width:100%;
+    height: 98vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+.form-area{
+    transform: translate(500px,100px);
+}
+.form-logo{
+    transform: translate(520px,60px);
+}
+.input-field{
+  margin-top: 13px;
+  width:260px;
+  padding:8px 5px;
+  background-color: #F5F5F5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.submit-btn{
+    width:260px;
+    background-color: crimson;
+    color:white;
+    outline:none;
+    border:1px solid rgb(210, 199, 199);
+    border-radius: 5px;
+    padding:8px 10px;
+    margin-top: 10px;
+}
+
+
+@media all and (max-width:500px){
+    .login-banner{
+        width:100%;
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+    }
+    .form-area{
+        transform: translate(80px,50px);
+    }
+    .form-logo{
+        transform: translate(80px,40px);
+    }
+    .input-field{
+        margin-top: 5px;
+        width:250px;
+        padding:5px 3px;
+        background-color: #F5F5F5;
+        outline: none;
+        border: none;
+    }
+}
